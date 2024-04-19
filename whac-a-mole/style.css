@@ -1,0 +1,33 @@
+#grid {
+    width: 396px;
+    height: 396px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 130px;
+    height: 130px;
+    border: 1px solid black;
+}
+
+.square.mole {
+    background-image: url('./mole.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.start-btn {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.start-btn:hover {
+    background-color: #b8b8b8;
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+}

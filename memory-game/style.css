@@ -1,0 +1,13 @@
+
+h3 {
+    text-align: center;
+}
+
+#grid {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
